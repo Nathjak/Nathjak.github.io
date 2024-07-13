@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    text-align: center;
+}
+header {
+    background-color: #000;
+    color: #89f7e4;
+    padding: 1em 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul a {
+    color: #89f7e4;
+    text-decoration: dotted;
+}
+section {
+    padding: 2em;
+}
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#contact a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 40px;
+}
+#contact a:hover{
+color: rgb(24, 247, 4);
+transition: ease-in;
+transition-delay: 12ms;
+transition-duration: 0.5s;
+}
+#contact a[href*="facebook"]:hover{
+    color:blue;
+    transition: ease-in;
+    transition-delay: 12ms;
+    transition-duration: 0.5s;
+    }
+    #contact a[href*="x"]:hover{
+        color: rgb(8, 7, 7);
+        transition: ease-in;
+        transition-delay: 12ms;
+        transition-duration: 0.5s;
+        }
+        #contact a[href*="instagram"]:hover{
+            color: rgb(245, 25, 25);
+            transition: initial;
+            transition-delay: 12ms;
+            transition-duration: 0.5s;
+            }
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+}
